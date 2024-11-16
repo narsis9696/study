@@ -9,7 +9,8 @@ int main(void)
     n2 = n * n;
     n3 = n2 * n2;
 
-    printf("n= %d, n squared = %d, n cubed = %d\n", n, n2, n3); // semantic error: cube -> fourth power of n
+    printf("n= %d, n squared = %d, n cubed = %d\n", n, n2, n3);    
+ // semantic error: cube -> fourth power of n
 
     return 0;
 }
