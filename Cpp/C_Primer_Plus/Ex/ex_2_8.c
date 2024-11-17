@@ -9,7 +9,7 @@ int main(void)
     printf("Staring now:\n");
     one_three();
     printf("done!\n");
-
+    /*문제 영문 해석 잘못했다. 문제는 메인함수 one_three함수 two()함수 이렇게 3개만 사용하는거였다.*/
     return 0;
 }
 
