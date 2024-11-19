@@ -8,8 +8,6 @@ int main(void)
     scanf("%c", &ch); /*user input character*/
     printf("The code for %c is %d.\n", ch, ch);
 
-    getchar();
-    getchar();
-
+   
     return 0;
 }
