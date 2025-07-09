@@ -14,7 +14,7 @@ int main(void)
     /*assume platinum is $1700 per ounce*/
     /*14.5833 converts pounds avd. to ounces troy*/
     value = 1700.0 * weight * 14.5833;
-    printf("your weight in platinum is worth $%.2f.\n", value); /*소수점 둘째자리까지 출력*/
+    printf("your weight in platinum is worth $%.2f.\n", value); /*소수점 둘째 자리까지 출력, %f는 지정자, .2는 변경자*/
     printf("You are easily worth that! If platinum prices drop,\n");
     printf("eat more to maintain your value.\n");
 
