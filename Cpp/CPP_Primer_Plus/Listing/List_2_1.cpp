@@ -1,4 +1,4 @@
-// mufirst.cpp -- 메세지를 출력한다
+// myfirst.cpp -- 메세지를 출력한다
 
 #include <iostream>
 int main ()
