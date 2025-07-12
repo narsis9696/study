@@ -1,4 +1,4 @@
-// carrots.cpp --
+// carrots.cpp -- 음식물 처리 프로그램
 // 
 
 #include <iostream>
