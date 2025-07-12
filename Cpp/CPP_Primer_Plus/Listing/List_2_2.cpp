@@ -1,5 +1,5 @@
 // carrots.cpp -- 음식물 처리 프로그램
-// 
+// 하나의 변수를 사용하고 출력한다 
 
 #include <iostream>
 
@@ -10,11 +10,11 @@ int main()
 	int carrots;
 
 	carrots = 25;
-	cout << "";
+	cout << "나는 당근을";
 	cout << carrots;
-	cout << "";
+	cout << "개 가지고 있다.";
 	cout << endl;
 	carrot = carrots -1;
-	cout << "" << carrots << "" <<endl;
+	cout << "아삭아삭, 이제 당근은 " << carrots << "개이다." <<endl;
 	return 0;
 }
