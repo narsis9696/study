@@ -5,7 +5,7 @@ int main(void)
     int x = 100;
 
     printf("dec= %d; octal= %o; hex= %x\n", x, x, x);
-    printf("dec= %d; octal= %#o; hex= %#x\n", x, x, x);
+    printf("dec= %d; octal= %#o; hex= %#x\n", x, x, x); /*대문자 %#X로 표현 가능*/
 
     return 0;
 }
