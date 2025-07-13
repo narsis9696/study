@@ -11,6 +11,6 @@ int main()
 	cout << "여기 두 개가 더있다. ";
 	carrots = carrots +2;
 //다음 라인은 출력을 연결한다.
-	cout << "이제 당근은 모두 " <<carrrots << "개이다." <<endl;
+	cout << "이제 당근은 모두 " <<carrots << "개이다." <<endl;
 	return 0;
 }
