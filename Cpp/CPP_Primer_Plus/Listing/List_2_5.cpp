@@ -14,7 +14,7 @@ int main()
     return 0;
 }
 
-void simon(int n)   //simon() 함수를 정의한다
+void simon(int n)   //simon() 함수를 정의한다. 변수 n도 한번에 선언됨
 {
     using namespace std;
     cout << "Simon 왈, 발가락을 " <<n<< "번 두드려라." <<endl; // 일부러 화이트스페이스 안주고 변수 n을 적었다
