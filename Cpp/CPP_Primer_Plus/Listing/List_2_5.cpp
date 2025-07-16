@@ -1,10 +1,12 @@
 // ourfunc.cpp -- 사용자가 작성하는 함수를 정의한다.
 #include <iostream>
+
+// using namespace std; 이 파일에 있는 모든 함수 정의에 영향을 준다
 void simon(int);    // simon() 을 위한 함수 원형
 
 int main()
 {
-    using namespace std;
+    using namespace std;    // 4라인의 주석을 이용해 대체하여 각 함수 마다 선언 필요 없을 수 있다
     simon(3);   //simon() 함수를 호출한다
     cout << "정수를 하나고르시오: ";
     int count;
